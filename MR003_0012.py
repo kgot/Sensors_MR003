@@ -1,3 +1,11 @@
+# Library for the MR003-1.2 temperature sensor from microbot.
+#
+# Based the on Adafruit_Python_MCP9808 library [1]
+# [1]: https://github.com/adafruit/Adafruit_Python_MCP9808
+# 
+# Depends on the Adafruit Python GPIO Library for its I2C abstraction [2]
+# [2]: https://github.com/adafruit/Adafruit_Python_GPIO
+
 import logging
 import math
 
